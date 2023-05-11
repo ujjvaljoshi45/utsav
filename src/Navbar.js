@@ -18,6 +18,9 @@ function Navbar() {
                             <li className="nav-item">
                                 <a className="nav-link text-light" href="#contactus">Contact Us</a>
                             </li>
+                            <li className="nav-item">
+                                <a className="nav-link text-light" href="https://drive.google.com/drive/folders/1nSpeV8YCFXzau3HInLkCljFYqUWXjqXG?usp=share_link">Brochure</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

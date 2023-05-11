@@ -1,0 +1,25 @@
+.ourworkdiv{
+    background-color: #37474f;
+    margin-top: 24px;
+    padding: 10px;
+    text-align: center;
+    align-items: center; 
+    justify-content: center;
+    border: 2px solid #78909c;
+    border-radius: 50px;
+    box-shadow: 5px 10px #37474f; 
+}
+
+.ourwork-prompt{
+    padding: 16px;
+    background-color: #263238;
+    margin: 18px;
+    border : 2px solid #78909c;
+    border-radius: 50px;
+}
+
+.imagecls{
+    margin: 10px;
+    height: 200px;
+    width:  200px;
+}

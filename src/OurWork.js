@@ -1,37 +1,47 @@
 import './Ourwork.css'
-import Carp from './photos/carp.jpeg'
+import Carp from './photos/carp.png'
+
+// Images 
 import AnimoMeter from './photos/AnimoMeter.jpg'
 import BatterCharger from './photos/BatteryCharger.jpg'
 import MechWindSensor from './photos/MechWindSensor.jpg'
 import SearchLight from './photos/SearchLight.jpg'
 import UltrasonicWindSensor from './photos/UltrasonicWindSensor.jpg'
 import MTU from './photos/MTU.jpg'
+import HRP from './photos/hrp.jpeg';
+import joystick from './photos/joystick.jpeg';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+
 export default function OurWork() {
     return (
         <div className="ourwork" id="ourwork">
             <Container className='ourworkdiv'>
                 <h2 style={{ fontFamily: 'unset' }}>Sale And Service</h2>
                 <p className='ourwork-prompt'>
-                    Stay connected and comfortable with Utsav Electrotech! <br/>
-                    We offer <b style={{ fontSize: '32px', fontFamily: 'unset', color: 'wheat' }}> top-quality </b>sales and service of electronic devices,<br/>
-                    including TVs, Air Conditioners, and Refrigerators.<br/>
-                    Our team of experts provides excellent customer service and support,<br/>
-                    from helping you select the right products to providing<br/>
-                    <b style={{ fontSize: '32px', fontFamily: 'unset', color: 'wheat' }}>eliable repairs </b>and maintenance services.<br/>
-                    Trust us to provide the innovative and<br/>
-                    <b style={{ fontSize: '32px', fontFamily: 'unset', color: 'wheat' }}>cost-effective solutions </b>you need.<br/></p>
-                <Row style={{alignItems:'center', textAlign:'center'}}>
+                    Stay connected and comfortable with Utsav Electrotech! <br />
+                    We offer <b style={{ fontSize: '32px', fontFamily: 'unset', color: 'wheat' }}> top-quality </b>sales and service of electronic devices,<br />
+                    including TVs, Air Conditioners, and Refrigerators.<br />
+                    Our team of experts provides excellent customer service and support,<br />
+                    from helping you select the right products to providing<br />
+                    <b style={{ fontSize: '32px', fontFamily: 'unset', color: 'wheat' }}>eliable repairs </b>and maintenance services.<br />
+                    Trust us to provide the innovative and<br />
+                    <b style={{ fontSize: '32px', fontFamily: 'unset', color: 'wheat' }}>cost-effective solutions </b>you need.<br /></p>
+                <Row style={{ alignItems: 'center', textAlign: 'center' }}>
                     <Col>
                         <img className='imagecls' src={'https://upload.wikimedia.org/wikipedia/commons/1/10/Mitsubishi_Electric_logo.svg'}></img>
+                        <h3>Air Conditioners</h3>
                     </Col>
                     <Col>
-                    <img className='imagecls' src={'https://upload.wikimedia.org/wikipedia/commons/6/66/Liebherr_logo.svg'}></img>
+                        <img className='imagecls' src={'https://upload.wikimedia.org/wikipedia/commons/6/66/Liebherr_logo.svg'}></img>
+                        <h3>Refrigerators</h3>
                     </Col>
+                    
+                    <Col>
                     <img className='imagecls' src={Carp}></img>
-                    <Col>
+                    <h3>Televison and Air Conditioners</h3>
                     </Col>
                 </Row>
 
@@ -51,12 +61,12 @@ export default function OurWork() {
                         <h3>MTU Devices</h3>
                     </Col>
                     <Col>
-                        <img className="imagecls" src={BatterCharger} />
-                        <h3>Battery Charger</h3>
+                        <img className="imagecls" src={HRP} />
+                        <h3>HRP</h3>
                     </Col>
                     <Col>
-                        <img className="imagecls" src={MechWindSensor} />
-                        <h3>Mechanical Wind Sensor</h3>
+                        <img className="imagecls" src={joystick} />
+                        <h3>Joystick</h3>
                     </Col>
                 </Row>
                 <Row>
@@ -71,6 +81,16 @@ export default function OurWork() {
                     <Col>
                         <img className="imagecls" src={AnimoMeter} />
                         <h3>Animo Meter</h3>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <img className="imagecls" src={BatterCharger} />
+                        <h3>Battery Charger</h3>
+                    </Col>
+                    <Col>
+                        <img className="imagecls" src={MechWindSensor} />
+                        <h3>Mechanical Wind Sensor</h3>
                     </Col>
                 </Row>
             </Container>
